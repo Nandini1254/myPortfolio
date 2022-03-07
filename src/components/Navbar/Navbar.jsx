@@ -30,7 +30,6 @@ const Navbar = () => {
   return (
     <>
       <Menu color={colorChange}>
-        <Head>𝓜𝔂𝓟𝓸𝓻𝓽𝓕𝓸𝓵𝓲𝓸</Head>
         <FullNav color={colorChange}>
           <LeftMenu>
             <NavLink
@@ -109,7 +108,7 @@ const Navbar = () => {
             </Icon>
           </RightMenu>
         </FullNav>
-
+     
         <IconBar onClick={() => setToggle(!toggle)} color={colorChange}>
           {toggle ? <VscThreeBars /> : <AiOutlineClose />}
         </IconBar>

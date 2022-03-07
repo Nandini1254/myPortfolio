@@ -15,6 +15,7 @@ export const Head = styled.div`
   display: none;
   @media only screen and (max-width: 425px) {
     display: block;
+    position:absolute;
   }
 `;
 
@@ -47,6 +48,7 @@ export const Menu = styled.div`
   }}
 
   @media only screen and (max-width: 425px) {
+    position:relative;
     ${NavLink}:hover {
       color: #fff;
       border: none;
